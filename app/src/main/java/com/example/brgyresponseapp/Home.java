@@ -39,6 +39,8 @@ public class Home extends AppCompatActivity {
             assert fragment != null;
             getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer,fragment).commit();
             return true;
+
+            //token:
         });
     }
 }
