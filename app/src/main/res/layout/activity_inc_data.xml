@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- Here you put the rest of your current view-->
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/activity_sus_data_scene"
+        tools:context=".IncData">
+
+        <TextView
+            android:id="@+id/loginText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="204dp"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="Type of Incident"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.376"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/to_inc"
+            android:layout_width="333dp"
+            android:layout_height="44dp"
+            android:background="@drawable/inp2"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="631dp" />
+
+        <TextView
+            android:id="@+id/loginText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="417dp"
+            android:layout_marginEnd="255dp"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="Date Now"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/inc_date"
+            android:layout_width="333dp"
+            android:layout_height="44dp"
+            android:background="@drawable/inp2"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="460dp" />
+
+        <EditText
+            android:id="@+id/inc_add"
+            android:layout_width="333dp"
+            android:layout_height="44dp"
+            android:background="@drawable/inp2"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="246dp" />
+
+        <TextView
+            android:id="@+id/loginText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="528dp"
+            android:layout_marginEnd="189dp"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="Time Now"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/loginText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="204dp"
+            android:layout_marginEnd="222dp"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="Incident Address"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/inc_en"
+            android:layout_width="333dp"
+            android:layout_height="44dp"
+            android:background="@drawable/inp2"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="355dp" />
+
+        <Button
+            android:id="@+id/inc_back"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="632dp"
+            android:layout_marginEnd="18dp"
+            android:backgroundTint="@color/white"
+            android:onClick="incBack"
+            android:text="back"
+            android:textColor="@color/crimson"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/inc_submit"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="648dp"
+            android:layout_marginEnd="18dp"
+            android:backgroundTint="@color/crimson"
+            android:onClick="incSubmit"
+            android:text="submit"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.926"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/loginText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginEnd="215dp"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="Entry Number"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/inc_time"
+            android:layout_width="333dp"
+            android:layout_height="44dp"
+            android:background="@drawable/inp2"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="566dp" />
+
+        <TextView
+            android:id="@+id/loginText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="Incident Data"
+            android:textColor="@color/crimson"
+            android:textFontWeight="1000"
+            android:textSize="26dp"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</ScrollView>
+

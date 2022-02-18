@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">BrgyResponseApp</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="home">Home</string>
+    <string name="admin">Admin</string>
+    <string name="more">More</string>
+    <string name="res1">Note: A respondent can report any type of incidents, such as murder, house fire or panic.</string>
+    <string name="note1">Note: Show the Google Map Locations, Routers and Distance time.</string>
+    <string name="note2">Note: Show the Response List related to Incident Address and Type of Incident.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
